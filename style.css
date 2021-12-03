@@ -39,6 +39,7 @@ a {
     padding: 50px 100px;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .part1 {
@@ -46,7 +47,6 @@ a {
     flex-flow: column wrap;
     justify-content: center;
     align-items:flex-start;
-    margin-left: auto;
     max-width: 500px;
     font-size: 48px;
     font-weight: bolder;
@@ -66,15 +66,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: auto;
 }
 
 #image1 {
-    height: auto; 
+    /* height: auto; 
     width: auto; 
     max-width: 600px; 
-    max-height: 600px;
+    max-height: 600px; */
     border: 5px solid black;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
 }
 
 .block2 {
@@ -95,7 +97,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* max-width:800px; */
     gap: 30px;
     padding: 10px;
     padding-bottom: 40px;
