@@ -57,7 +57,7 @@ a {
     border-radius: 15px;
     color: white;
     font-weight: bold;
-    padding: 2px 15px;
+    padding: 4px 15px;
 }
 
 .mainimage {
@@ -128,7 +128,6 @@ a {
     font-size: 36px;
     color: #1f2937;
     text-align: justify;
-    /* margin:auto; */
 }
 
 #author {
